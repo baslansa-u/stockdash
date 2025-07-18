@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# VSCode / macOS
+.DS_Store
+.vscode/
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
