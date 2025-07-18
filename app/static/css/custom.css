@@ -41,3 +41,19 @@ body {
   object-fit: cover;
   border-radius: 50%; /* ทำเป็นวงกลม */
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+  }
+
+  .stock-table {
+    margin-bottom: 1rem;
+  }
+}
